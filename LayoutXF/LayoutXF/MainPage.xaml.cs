@@ -1,6 +1,7 @@
 ﻿using LayoutXF.Layouts.Absolute;
 using LayoutXF.Layouts.Grid;
 using LayoutXF.Layouts.Relative;
+using LayoutXF.Layouts.Scroll;
 using LayoutXF.Layouts.Stack;
 using System;
 using System.Collections.Generic;
@@ -36,6 +37,11 @@ namespace LayoutXF
         private void GoPageRelative(object sender, EventArgs e)
         {
             Navigation.PushAsync(new RelativePage());
+        }
+
+        private void GoPageScroll(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ScrollPage());
         }
     }
 }

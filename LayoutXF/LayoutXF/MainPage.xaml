@@ -9,6 +9,6 @@
         <Button Text="Grid" Clicked="GoPageGrid" />
         <Button Text="Absolute" Clicked="GoPageAbsolute" />
         <Button Text="Relative" Clicked="GoPageRelative" />
-        <Button Text="Stack" Clicked="GoPageStack" />
+        <Button Text="Scroll" Clicked="GoPageScroll" />
     </StackLayout>
 </ContentPage>
